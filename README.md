@@ -1,3 +1,3 @@
 # entity
 
-# discord bot for dead by daylight
+discord bot for dead by daylight
