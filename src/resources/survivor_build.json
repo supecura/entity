@@ -1,0 +1,161 @@
+[
+  {
+    "description": "ライトマン",
+    "park": [
+      {
+        "englishName": "Empathy",
+        "japaneseName": "共感"
+      },
+      {
+        "englishName": "Borrowed Time",
+        "japaneseName": "与えられた猶予"
+      }
+    ],
+    "item": {
+      "type": "FlashLight"
+    },
+    "offering": {
+      "type": "random"
+    }
+  },
+  {
+    "description": "独学者",
+    "park": [
+      {
+        "englishName": "Autodidact",
+        "japaneseName": "独学者"
+      },
+      {
+        "englishName": "Empathy",
+        "japaneseName": "共感"
+      }
+    ],
+    "item": {
+      "type": "random"
+    },
+    "offering": {
+      "type": "random"
+    }
+  },
+  {
+    "description": "弱音はナシだ",
+    "park": [
+      {
+        "englishName": "No Mither",
+        "japaneseName": "弱音はナシだ"
+      }
+    ],
+    "item": {
+      "type": "random"
+    },
+    "offering": {
+      "type": "random"
+    }
+  },
+  {
+    "description": "執念の対象",
+    "park": [
+      {
+        "englishName": "Object of Obsession",
+        "japaneseName": "執念の対象"
+      }
+    ],
+    "item": {
+      "type": "random"
+    },
+    "offering": {
+      "type": "random"
+    }
+  },
+  {
+    "description": "幸運者",
+    "park": [
+      {
+        "englishName": "Up the Ante",
+        "japaneseName": "賭け金のレイズ"
+      },
+      {
+        "englishName": "Slippery Meat",
+        "japaneseName": "滑りやすい肉体"
+      }
+    ],
+    "item": {
+      "type": "random"
+    },
+    "offering": {
+      "type": "Salt",
+      "rarity": "VeryRare",
+      "englishName": "Vigo's Jar of Salty Lips",
+      "japaneseName": "ヴィゴの塩漬け唇入り瓶"
+    }
+  },
+  {
+    "description": "四つ目",
+    "park": [
+      {
+        "englishName": "Object of Obsession",
+        "japaneseName": "執念の対象"
+      },
+      {
+        "englishName": "Kindred",
+        "japaneseName": "血族"
+      },
+      {
+        "englishName": "Deja Vu",
+        "japaneseName": "デジャヴ"
+      },
+      {
+        "englishName": "Dark Sense",
+        "japaneseName": "闇の感覚"
+      }
+    ],
+    "item": {
+      "type": "Map"
+    },
+    "offering": {
+      "type": "random"
+    }
+  },
+  {
+    "description": "フック破壊マン",
+    "park": [
+      {
+        "englishName": "Saboteur",
+        "japaneseName": "サボタージュ"
+      },
+      {
+        "englishName": "Streetwise",
+        "japaneseName": "都会の生存術"
+      }
+    ],
+    "item": {
+      "type": "ToolBox"
+    },
+    "offering": {
+      "type": "random"
+    }
+  },
+  {
+    "description": "ロッカーマン",
+    "park": [
+      {
+        "englishName": "Dance With Me",
+        "japaneseName": "私と踊ろう"
+      },
+      {
+        "englishName": "Iron Will",
+        "japaneseName": "鋼の意志"
+      },
+      {
+        "englishName": "Quick & Quiet",
+        "japaneseName": "素早く静かに"
+      }
+    ],
+    "item": {
+      "type": "random"
+    },
+    "offering": {
+      "type": "random"
+    }
+  }
+]

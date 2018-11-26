@@ -1,0 +1,56 @@
+[
+	{
+        "type": "MementoMori",
+        "rarity": "UltraRare",
+        "englishName": "Ebony Memento Mori",
+        "japaneseName": "黒檀のメメント・モリ"
+	},
+    {
+        "type": "MementoMori",
+        "rarity": "Rare",
+        "englishName": "Ivory Memento Mori",
+        "japaneseName": "象牙のメメント・モリ"
+    },
+    {
+        "type": "MementoMori",
+        "rarity": "Uncommon",
+        "englishName": "Cypress Momento Mori",
+        "japaneseName": "糸杉のメメント・モリ"
+      },
+	{
+        "type": "Coin",
+        "rarity": "VeryRare",
+        "englishName": "Cut Coin",
+        "japaneseName": "割れたコイン"
+	},
+	{
+        "type": "Coin",
+        "rarity": "Uncommon",
+        "englishName": "Scratched Coin",
+		"japaneseName": "傷ついたコイン"
+	},
+	{
+        "type": "Oak",
+        "rarity": "VeryRare",
+        "englishName": "Putrid Oak",
+		"japaneseName": "腐敗した樫の木"
+	},
+	{
+        "type": "Oak",
+        "rarity": "Rare",
+		"englishName": "Rotten Oak",
+		"japaneseName": "腐った樫の木"
+	},
+    {
+        "type": "Oak",
+        "rarity": "Uncommon",
+        "englishName": "Moldy Oak",
+        "japaneseName": "カビが生えた樫の木"
+    },
+    {
+        "type": "Cloth",
+        "rarity": "Uncommon",
+        "englishName": "Shroud of Separation",
+        "japaneseName": "別離の覆布"
+    }
+]

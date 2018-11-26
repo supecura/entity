@@ -1,0 +1,134 @@
+[
+	{
+        "type": "FlashLight",
+        "rarity": "Uncommon",
+        "englishName": "Flashlight",
+        "japaneseName": "懐中電灯"
+	},
+    {
+        "type": "FlashLight",
+        "rarity": "Rare",
+        "englishName": "Sport Flashlight",
+        "japaneseName": "小型懐中電灯"
+    },
+    {
+        "type": "FlashLight",
+        "rarity": "VeryRare",
+        "englishName": "Utility Flashlight",
+        "japaneseName": "高性能懐中電灯"
+      },
+	{
+        "type": "AidKit",
+        "rarity": "Common",
+        "englishName": "Camping Aid Kit",
+        "japaneseName": "携帯用医療キット"
+	},
+	{
+        "type": "AidKit",
+        "rarity": "Uncommon",
+        "englishName": "First Aid Kit",
+		"japaneseName": "救急箱"
+	},
+	{
+        "type": "AidKit",
+        "rarity": "Rare",
+        "englishName": "Emergency Med-Kit",
+		"japaneseName": "非常用医療キット"
+	},
+	{
+        "type": "AidKit",
+        "rarity": "VeryRare",
+		"englishName": "Ranger Med-Kit",
+		"japaneseName": "救助隊用医療キット"
+	},
+	{
+        "type": "ToolBox",
+        "rarity": "Common",
+		"englishName": "Worn-Out Tools",
+		"japaneseName": "ボロボロの工具箱"
+	},
+	{
+        "type": "ToolBox",
+        "rarity": "Uncommon",
+		"englishName": "Toolbox",
+		"japaneseName": "工具箱"
+	},
+	{
+        "type": "ToolBox",
+        "rarity": "Rare",
+		"englishName": "Mechanic's ToolboxS",
+		"japaneseName": "整備士の工具箱"
+	},
+	{
+        "type": "ToolBox",
+        "rarity": "Rare",
+		"englishName": "Commodious Toolbox",
+		"japaneseName": "大きな工具箱"
+	},
+	{
+        "type": "ToolBox",
+        "rarity": "VeryRare",
+		"englishName": "Enginner's Toolbox",
+		"japaneseName": "機械技師の工具箱"
+	},
+	{
+        "type": "ToolBox",
+        "rarity": "VeryRare",
+		"englishName": "Alex's Toolbox",
+		"japaneseName": "アレックスの工具箱"
+	},
+	{
+        "type": "Map",
+        "rarity": "Rare",
+		"englishName": "Map",
+		"japaneseName": "地図"
+	},
+	{
+        "type": "Map",
+        "rarity": "UltraRare",
+		"englishName": "Rainbow Map",
+		"japaneseName": "虹色の地図"
+	},
+	{
+        "type": "Key",
+        "rarity": "Rare",
+		"englishName": "Broken Key",
+		"japaneseName": "壊れた鍵"
+	},
+	{
+        "type": "Key",
+        "rarity": "VeryRare",
+		"englishName": "Dull Key",
+		"japaneseName": "磨り減った鍵"
+	},
+	{
+        "type": "Key",
+        "rarity": "UltraRare",
+		"englishName": "Skeleton Key",
+		"japaneseName": "スケルトンキー"
+	},
+	{
+        "type": "FlashLight",
+        "rarity": "Rare",
+		"englishName": "Winter Party Starter",
+		"japaneseName": "冬のパーティスターター"
+	},
+	{
+        "type": "No Addon",
+        "rarity": "Uncommon",
+		"englishName": "Will O' Wisp",
+		"japaneseName": "ウィル・オ・ウィスプ"
+	},
+	{
+        "type": "AidKit",
+        "rarity": "common",
+		"englishName": "All Hallows'eve Lunchbox",
+		"japaneseName": "万聖節前夜のランチボックス"
+	},
+	{
+        "type": "No Addon",
+        "rarity": "common",
+		"englishName": "Chinese Firecracker",
+		"japaneseName": "中国の爆竹"
+	}
+]

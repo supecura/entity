@@ -1,0 +1,257 @@
+[
+	{
+		"type": "common",
+		"englishName": "Sloppy Butcher",
+		"japaneseName": "ずさんな肉屋"
+	},
+	{
+		"type": "common",
+		"englishName": "Deerstalker",
+		"japaneseName": "鹿猟師"
+	},
+	{
+		"type": "common",
+		"englishName": "Iron Grasp",
+		"japaneseName": "鉄の握力"
+	},
+	{
+		"type": "common",
+		"englishName": "Hex:Thrill of the Hunt",
+		"japaneseName": "呪術:狩りの興奮"
+	},
+	{
+		"type": "common",
+		"englishName": "Unrelenting",
+		"japaneseName": "無慈悲"
+	},
+	{
+		"type": "common",
+		"englishName": "Monstrous Shrine",
+		"japaneseName": "異形の祭壇"
+	},
+	{
+		"type": "common",
+		"englishName": "Distressing",
+		"japaneseName": "苦悶の根源"
+	},
+	{
+		"type": "common",
+		"englishName": "Spies From The Shadows",
+		"japaneseName": "影の中の密偵"
+	},
+	{
+		"type": "common",
+		"englishName": "Whispers",
+		"japaneseName": "囁き"
+	},
+	{
+		"type": "common",
+		"englishName": "Insidious",
+		"japaneseName": "狡猾"
+	},
+	{
+		"type": "common",
+		"englishName": "Bitter Murmur",
+		"japaneseName": "憎悪の呟き"
+	},
+	{
+		"type": "common",
+		"englishName": "Hex:No One Escapes Death",
+		"japaneseName": "呪術:誰も死から逃れられない"
+	},
+	{
+		"type": "THE-TRAPPER_teachable",
+		"englishName": "Unnerving Presence",
+		"japaneseName": "不安の元凶"
+	},
+	{
+		"type": "THE-TRAPPER_teachable",
+		"englishName": "Brutal Strength",
+		"japaneseName": "野蛮な力"
+	},
+	{
+		"type": "THE-TRAPPER_teachable",
+		"englishName": "Agitation",
+		"japaneseName": "興奮"
+	},
+	{
+		"type": "THE-WRAITH_teachable",
+		"englishName": "Predator",
+		"japaneseName": "捕食者"
+	},
+	{
+		"type": "THE-WRAITH_teachable",
+		"englishName": "Bloodhound",
+		"japaneseName": "血の追跡者"
+	},
+	{
+		"type": "THE-WRAITH_teachable",
+		"englishName": "Shadowborn",
+		"japaneseName": "闇より出でし者"
+	},
+	{
+		"type": "THE-HILLBILLY_teachable",
+		"englishName": "Enduring",
+		"japaneseName": "不屈"
+	},
+	{
+		"type": "THE-HILLBILLY_teachable",
+		"englishName": "Lightborn",
+		"japaneseName": "光より出でし者"
+	},
+	{
+		"type": "THE-HILLBILLY_teachable",
+		"englishName": "Tinkerer",
+		"japaneseName": "ガラクタいじり"
+	},
+	{
+		"type": "THE-NURSE_teachable",
+		"englishName": "Stridor",
+		"japaneseName": "喘鳴"
+	},
+	{
+		"type": "THE-NURSE_teachable",
+		"englishName": "Thanatophobia",
+		"japaneseName": "死恐怖症"
+	},
+	{
+		"type": "THE-NURSE_teachable",
+		"englishName": "A Nurse's Calling",
+		"japaneseName": "看護婦の使命"
+	},
+	{
+		"type": "THE-SHAPE_teachable",
+		"englishName": "Save the Best for Last",
+		"japaneseName": "最後のお楽しみ"
+	},
+	{
+		"type": "THE-SHAPE_teachable",
+		"englishName": "Play with your Food",
+		"japaneseName": "弄ばれる獲物"
+	},
+	{
+		"type": "THE-SHAPE_teachable",
+		"englishName": "Dying Light",
+		"japaneseName": "消えゆく灯"
+	},
+	{
+		"type": "THE-HAG_teachable",
+		"englishName": "Hex:The Third Seal",
+		"japaneseName": "呪術:第三の封印"
+	},
+	{
+		"type": "THE-HAG_teachable",
+		"englishName": "Hex:Ruin",
+		"japaneseName": "呪術:破滅"
+	},
+	{
+		"type": "THE-HAG_teachable",
+		"englishName": "Hex:Devour Hope",
+		"japaneseName": "呪術:貪られる希望"
+	},
+	{
+		"type": "THE-DOCTOR_teachable",
+		"englishName": "Overwhelming Presence",
+		"japaneseName": "圧倒的存在感"
+	},
+	{
+		"type": "THE-DOCTOR_teachable",
+		"englishName": "Monitor & Abuse",
+		"japaneseName": "観察&虐待"
+	},
+	{
+		"type": "THE-DOCTOR_teachable",
+		"englishName": "Overcharge",
+		"japaneseName": "オーバーチャージ"
+	},
+	{
+		"type": "THE-HUNTRESS_teachable",
+		"englishName": "Beast Of Prey",
+		"japaneseName": "猛獣"
+	},
+	{
+		"type": "THE-HUNTRESS_teachable",
+		"englishName": "Territorial Imperative",
+		"japaneseName": "縄張り意識"
+	},
+	{
+		"type": "THE-HUNTRESS_teachable",
+		"englishName": "Hex:Huntress Lullaby",
+		"japaneseName": "呪術:女狩人の子守唄"
+	},
+	{
+		"type": "THE-CANNIBAL_teachable",
+		"englishName": "Knock Out",
+		"japaneseName": "ノックアウト"
+	},
+	{
+		"type": "THE-CANNIBAL_teachable",
+		"englishName": "Barbecue & Chili",
+		"japaneseName": "バーベキュー&チリ"
+	},
+	{
+		"type": "THE-CANNIBAL_teachable",
+		"englishName": "Franklin's Demise",
+		"japaneseName": "フランクリンの悲劇"
+	},
+	{
+		"type": "THE-NIGHTMARE_teachable",
+		"englishName": "Fire up",
+		"japaneseName": "ファイヤー・アップ"
+	},
+	{
+		"type": "THE-NIGHTMARE_teachable",
+		"englishName": "Remember me",
+		"japaneseName": "リメンバーミー"
+	},
+	{
+		"type": "THE-NIGHTMARE_teachable",
+		"englishName": "Blood Warden",
+		"japaneseName": "血の番人"
+	},
+	{
+		"type": "THE-PIG_teachable",
+		"englishName": "Hangman's Trick",
+		"japaneseName": "処刑人の妙技"
+	},
+	{
+		"type": "THE-PIG_teachable",
+		"englishName": "Surveillance",
+		"japaneseName": "監視"
+	},
+	{
+		"type": "THE-PIG_teachable",
+		"englishName": "Make Your Choice",
+		"japaneseName": "選択は君次第だ"
+	},
+	{
+		"type": "THE-CLOWN_teachable",
+		"englishName": "Bamboozle",
+		"japaneseName": "まやかし"
+	},
+	{
+		"type": "THE-CLOWN_teachable",
+		"englishName": "Coulrophobia",
+		"japaneseName": "ピエロ恐怖症"
+	},
+	{
+		"type": "THE-CLOWN_teachable",
+		"englishName": "Pop Goes The Weasel",
+		"japaneseName": "イタチが飛び出した"
+	},
+	{
+		"type": "THE-SPIRIT_teachable",
+		"englishName": "Spirit Fury",
+		"japaneseName": "怨霊の怒り"
+	},
+	{
+		"type": "THE-SPIRIT_teachable",
+		"englishName": "Hex: Haunted Ground",
+		"japaneseName": "呪術：霊障の地"
+	},
+	{
+		"type": "THE-SPIRIT_teachable",
+		"englishName": "Rancor",
+		"japaneseName": "怨恨"
+	}
+]

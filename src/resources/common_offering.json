@@ -1,0 +1,116 @@
+[
+  {
+    "type": "Reagent",
+    "rarity": "Common",
+    "englishName": "Clear Reagent",
+    "japaneseName": "澄んだ試験薬"
+  },
+  {
+    "type": "Reagent",
+    "rarity": "Common",
+    "englishName": "Faint Reagent",
+    "japaneseName": "薄い試験薬"
+  },
+  {
+    "type": "Reagent",
+    "rarity": "Uncommon",
+    "englishName": "Hazy Reagent",
+    "japaneseName": "霧がかった試験薬"
+  },
+  {
+    "type": "Reagent",
+    "rarity": "VeryRare",
+    "englishName": "Murky Reagent",
+    "japaneseName": "濁った試験薬"
+  },
+  {
+    "type": "Moon Bouquet",
+    "rarity": "Uncommon",
+    "englishName": "Crescent Moon Bouquet",
+    "japaneseName": "三日月の花束"
+  },
+  {
+    "type": "Moon Bouquet",
+    "rarity": "Uncommon",
+    "englishName": "Quarter Moon Bouquet",
+    "japaneseName": "半月の花束"
+  },
+  {
+    "type": "Moon Bouquet",
+    "rarity": "VeryRare",
+    "englishName": "Full Moon Bouquet",
+    "japaneseName": "満月の花束"
+  },
+  {
+    "type": "Moon Bouquet",
+    "rarity": "UltraRare",
+    "englishName": "New Moon Bouquet",
+    "japaneseName": "新月の花束"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "MacMillan's Phalanx Bone",
+    "japaneseName": "マクミランの指骨"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Azarov's Key",
+    "japaneseName": "アザロフの鍵"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Heart Locket",
+    "japaneseName": "ハート型のロケットペンダント"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Charred Wedding Photograph",
+    "japaneseName": "黒焦げた結婚写真"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Strode Realty Key",
+    "japaneseName": "ストロード不動産の鍵"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Granma's Cookbook",
+    "japaneseName": "おばあちゃんの料理本"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Shattered Glasses",
+    "japaneseName": "割れた眼鏡"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "The Last Mask",
+    "japaneseName": "最後のマスク"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "The Pied Piper",
+    "japaneseName": "ハーメルンの笛吹き"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Jigsaw Piece",
+    "japaneseName": "ジグソーパズルのピース"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Yamaoka Family Crest",
+    "japaneseName": "山岡家の家紋"
+  }
+]

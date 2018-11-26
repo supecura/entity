@@ -1,0 +1,277 @@
+[
+	{
+		"type": "common",
+		"englishName": "Light weight",
+		"japaneseName": "身軽"
+	},
+	{
+		"type": "common",
+		"englishName": "Plunderer's Instinct",
+		"japaneseName": "こそ泥の本能"
+	},
+	{
+		"type": "common",
+		"englishName": "Small Game",
+		"japaneseName": "小さな獲物"
+	},
+	{
+		"type": "common",
+		"englishName": "Slippery Meat",
+		"japaneseName": "滑りやすい肉体"
+	},
+	{
+		"type": "common",
+		"englishName": "Deja Vu",
+		"japaneseName": "デジャヴ"
+	},
+	{
+		"type": "common",
+		"englishName": "Resilience",
+		"japaneseName": "逆境魂"
+	},
+	{
+		"type": "common",
+		"englishName": "This Is Not Happening",
+		"japaneseName": "痛みも気から"
+	},
+	{
+		"type": "common",
+		"englishName": "Kindred",
+		"japaneseName": "血族"
+	},
+	{
+		"type": "common",
+		"englishName": "We'll Make It",
+		"japaneseName": "きっとやり遂げる"
+	},
+	{
+		"type": "common",
+		"englishName": "Hope",
+		"japaneseName": "希望"
+	},
+	{
+		"type": "common",
+		"englishName": "No One Left Behind",
+		"japaneseName": "誰も見捨てはしない"
+	},
+	{
+		"type": "common",
+		"englishName": "Premonition",
+		"japaneseName": "予感"
+	},
+	{
+		"type": "common",
+		"englishName": "Spine Chill",
+		"japaneseName": "凍りつく背筋"
+	},
+	{
+		"type": "common",
+		"englishName": "Dark Sense",
+		"japaneseName": "闇の感覚"
+	},
+	{
+		"type": "DWIGHT-FAIRFIELD_teachable",
+		"englishName": "Bond",
+		"japaneseName": "絆"
+	},
+	{
+		"type": "DWIGHT-FAIRFIELD_teachable",
+		"englishName": "Prove Thyself",
+		"japaneseName": "有能の証明"
+	},
+	{
+		"type": "DWIGHT-FAIRFIELD_teachable",
+		"englishName": "Leader",
+		"japaneseName": "リーダー"
+	},
+	{
+		"type": "MEG-THOMAS_teachable",
+		"englishName": "Quick & Quiet",
+		"japaneseName": "素早く静かに"
+	},
+	{
+		"type": "MEG-THOMAS_teachable",
+		"englishName": "Sprint Burst",
+		"japaneseName": "全力疾走"
+	},
+	{
+		"type": "MEG-THOMAS_teachable",
+		"englishName": "Adrenaline",
+		"japaneseName": "アドレナリン"
+	},
+	{
+		"type": "JAKE-PARK_teachable",
+		"englishName": "Iron Will",
+		"japaneseName": "鋼の意志"
+	},
+	{
+		"type": "JAKE-PARK_teachable",
+		"englishName": "Calm Spirit",
+		"japaneseName": "魂の平穏"
+	},
+	{
+		"type": "JAKE-PARK_teachable",
+		"englishName": "Saboteur",
+		"japaneseName": "サボタージュ"
+	},
+	{
+		"type": "CLAUDETTE-MOREL_teachable",
+		"englishName": "Empathy",
+		"japaneseName": "共感"
+	},
+	{
+		"type": "CLAUDETTE-MOREL_teachable",
+		"englishName": "Botany Knowledge",
+		"japaneseName": "植物学の知識"
+	},
+	{
+		"type": "CLAUDETTE-MOREL_teachable",
+		"englishName": "Self Care",
+		"japaneseName": "セルフケア"
+	},
+	{
+		"type": "NEA-KARLSSON_teachable",
+		"englishName": "Balanced Landing",
+		"japaneseName": "スマートな着地"
+	},
+	{
+		"type": "NEA-KARLSSON_teachable",
+		"englishName": "Urban Evasion",
+		"japaneseName": "都会の逃走術"
+	},
+	{
+		"type": "NEA-KARLSSON_teachable",
+		"englishName": "Streetwise",
+		"japaneseName": "都会の生存術"
+	},
+	{
+		"type": "LAURIE-STRODE_teachable",
+		"englishName": "Sole Survivor",
+		"japaneseName": "唯一の生存者"
+	},
+	{
+		"type": "LAURIE-STRODE_teachable",
+		"englishName": "Object of Obsession",
+		"japaneseName": "執念の対象"
+	},
+	{
+		"type": "LAURIE-STRODE_teachable",
+		"englishName": "Decisive Strike",
+		"japaneseName": "決死の一撃"
+	},
+	{
+		"type": "ACE-VISCONTI_teachable",
+		"englishName": "Open-Handed",
+		"japaneseName": "手札公開"
+	},
+	{
+		"type": "ACE-VISCONTI_teachable",
+		"englishName": "Up the Ante",
+		"japaneseName": "賭け金のレイズ"
+	},
+	{
+		"type": "ACE-VISCONTI_teachable",
+		"englishName": "Ace in the Hole",
+		"japaneseName": "最後の切り札"
+	},
+	{
+		"type": "WILLIAM-OVERBECK_teachable",
+		"englishName": "Left Behind",
+		"japaneseName": "置き去りにされた者"
+	},
+	{
+		"type": "WILLIAM-OVERBECK_teachable",
+		"englishName": "Borrowed Time",
+		"japaneseName": "与えられた猶予"
+	},
+	{
+		"type": "WILLIAM-OVERBECK_teachable",
+		"englishName": "Unbreakable",
+		"japaneseName": "不滅"
+	},
+	{
+		"type": "FENG-MIN_teachable",
+		"englishName": "Technician",
+		"japaneseName": "テクニシャン"
+	},
+	{
+		"type": "FENG-MIN_teachable",
+		"englishName": "Lithe",
+		"japaneseName": "しなやか"
+	},
+	{
+		"type": "FENG-MIN_teachable",
+		"englishName": "Alert",
+		"japaneseName": "警戒"
+	},
+	{
+		"type": "DAVID-KING_teachable",
+		"englishName": "Dead Hard",
+		"japaneseName": "デッド・ハード"
+	},
+	{
+		"type": "DAVID-KING_teachable",
+		"englishName": "No Mither",
+		"japaneseName": "弱音はナシだ"
+	},
+	{
+		"type": "QUENTIN-SMITH_teachable",
+		"englishName": "Wake Up",
+		"japaneseName": "目を覚ませ！"
+	},
+	{
+		"type": "QUENTIN-SMITH_teachable",
+		"englishName": "Pharmacy",
+		"japaneseName": "調剤学"
+	},
+	{
+		"type": "QUENTIN-SMITH_teachable",
+		"englishName": "Vigil",
+		"japaneseName": "不寝番"
+	},
+	{
+		"type": "DAVID-TAPP_teachable",
+		"englishName": "Tenacity",
+		"japaneseName": "執念"
+	},
+	{
+		"type": "DAVID-TAPP_teachable",
+		"englishName": "Detective's Hunch",
+		"japaneseName": "刑事の直感"
+	},
+	{
+		"type": "DAVID-TAPP_teachable",
+		"englishName": "Stake Out",
+		"japaneseName": "張り込み"
+	},
+	{
+		"type": "KATE-DENSON_teachable",
+		"englishName": "Dance With Me",
+		"japaneseName": "私と踊ろう"
+	},
+	{
+		"type": "KATE-DENSON_teachable",
+		"englishName": "Windows Of Opportunity",
+		"japaneseName": "好機の窓"
+	},
+	{
+		"type": "KATE-DENSON_teachable",
+		"englishName": "Boil Over",
+		"japaneseName": "ボイルオーバー"
+	},
+	{
+		"type": "ADAM-FRANCIS_teachable",
+		"englishName": "Diversion",
+		"japaneseName": "陽動"
+	},
+	{
+		"type": "ADAM-FRANCIS_teachable",
+		"englishName": "Deliverance",
+		"japaneseName": "解放"
+	},
+	{
+		"type": "ADAM-FRANCIS_teachable",
+		"englishName": "Autodidact",
+		"japaneseName": "独学者"
+	}
+]

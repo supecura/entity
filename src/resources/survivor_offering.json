@@ -1,0 +1,56 @@
+[
+  {
+    "type": "ChalkPouch",
+    "rarity": "Common",
+    "englishName": "Chalk Pouch",
+    "japaneseName": "白い粉のポーチ"
+  },
+  {
+    "type": "ChalkPouch",
+    "rarity": "Uncommon",
+    "englishName": "Cream Chalk Pouch",
+    "japaneseName": "クリーム粉のポーチ"
+  },
+  {
+    "type": "ChalkPouch",
+    "rarity": "Rare",
+    "englishName": "Ivory Chalk Pouch",
+    "japaneseName": "粉末入れのポーチ"
+  },
+  {
+    "type": "Coin",
+    "rarity": "Uncommon",
+    "englishName": "Tarnished Coin",
+    "japaneseName": "変色したコイン"
+  },
+  {
+    "type": "Coin",
+    "rarity": "VeryRare",
+    "englishName": "Shiny Coin",
+    "japaneseName": "輝くコイン"
+  },
+  {
+    "type": "Oak",
+    "rarity": "VeryRare",
+    "englishName": "Petrified Oak",
+    "japaneseName": "石化した樫の木"
+  },
+  {
+    "type": "Salt",
+    "rarity": "Uncommon",
+    "englishName": "Salt Pouch",
+    "japaneseName": "塩のポーチ"
+  },
+  {
+    "type": "Salt",
+    "rarity": "Rare",
+    "englishName": "Black Salt Statuette",
+    "japaneseName": "黒塩の像"
+  },
+  {
+    "type": "Salt",
+    "rarity": "VeryRare",
+    "englishName": "Vigo's Jar of Salty Lips",
+    "japaneseName": "ヴィゴの塩漬け唇入り瓶"
+  }
+]
