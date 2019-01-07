@@ -273,5 +273,20 @@
 		"type": "ADAM-FRANCIS_teachable",
 		"englishName": "Autodidact",
 		"japaneseName": "独学者"
+	},
+	{
+		"type": "JEFF-JOHANSEN_teachable",
+		"englishName": "Breakdown",
+		"japaneseName": "ブレイクダウン"
+	},
+	{
+		"type": "JEFF-JOHANSEN_teachable",
+		"englishName": "Aftercare",
+		"japaneseName": "アフターケア"
+	},
+	{
+		"type": "JEFF-JOHANSEN_teachable",
+		"englishName": "Distortion",
+		"japaneseName": "ディストーション"
 	}
 ]

@@ -253,5 +253,20 @@
 		"type": "THE-SPIRIT_teachable",
 		"englishName": "Rancor",
 		"japaneseName": "怨恨"
+	},
+	{
+		"type": "THE-LEGION_teachable",
+		"englishName": "Discordance",
+		"japaneseName": "不協和音"
+	},
+	{
+		"type": "THE-LEGION_teachable",
+		"englishName": "Mad Grit",
+		"japaneseName": "狂気の根性"
+	},
+	{
+		"type": "THE-LEGION_teachable",
+		"englishName": "Iron Maiden",
+		"japaneseName": "アイアンメイデン"
 	}
 ]
