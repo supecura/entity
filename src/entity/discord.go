@@ -25,20 +25,11 @@ func SendMessage(s *discordgo.Session, c *discordgo.Channel, msg string) {
 	}
 }
 
-func DeleteChannel(s *discordgo.Session, m *discordgo.MessageCreate) {
-
-}
-
 func (e Entity) OnMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 	picker := EquipmentPicker{"src/resources/"}
 	fmt.Printf("%20s %20s %20s > %s\n", m.Author.ID, time.Now().Format(time.Stamp), m.Author.Username, m.Content)
-	c, err := s.State.Channel(m.ChannelID)
-	if err != nil {
-		log.Println("Error getting channel: ", err)
-		return
-	}
+
 	var line = strings.Replace(string(norm.NFKC.Bytes([]byte(m.Content))), "  ", " ", -1)
-	println(line)
 	switch {
 		case strings.HasPrefix(line, fmt.Sprintf("%s %s", e.BotName, pickUp)):
 			survivor := NewSurvivor("unknown")
@@ -46,7 +37,15 @@ func (e Entity) OnMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate
 			if strings.HasPrefix(line, fmt.Sprintf("%s %s %s", e.BotName, pickUp, "build")) {
 				survivor = picker.PickBuildRandom(survivor)
 			}
-			SendMessage(s, c, survivor.Equipment())
+			SendPrivateMessage(s, m, survivor.Equipment())
 			fmt.Printf("%20s %20s %20s > %s\n", m.Author.ID, time.Now().Format(time.Stamp), m.Author.Username, line)
 	}
+}
+
+func SendPrivateMessage(discordSession *discordgo.Session, m *discordgo.MessageCreate, message string) {
+	userChannel,err := discordSession.UserChannelCreate(m.Author.ID)
+	if err != nil {
+		log.Println("Error create channel: ", err)
+	}
+	discordSession.ChannelMessageSend(userChannel.ID, message)
 }

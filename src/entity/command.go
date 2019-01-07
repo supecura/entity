@@ -1,5 +1,6 @@
 package entity
 
 var(
-	pickUp		=	"pick"
+	pickUp        =	"pick"
+	createChannel =	"create"
 )
