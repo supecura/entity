@@ -15,7 +15,7 @@ type SurvivorPlayer struct {
 func (player SurvivorPlayer) ShowPlayerInfo(s *discordgo.Session,c *discordgo.Channel){
 	var message string
 	message += "ID"+"\t"+ player.ID
-	SendMessage(s,c,message)
+	//SendMessage(s,c,message)
 }
 
 func (player SurvivorPlayer) GetPickPattern() PickPattern {
