@@ -27,13 +27,15 @@ func callBot(s *discordgo.Session, m *discordgo.MessageCreate, commands []string
 	}
 }
 
-func pick(s *discordgo.Session, m *discordgo.MessageCreate, options []string){
+func pick(s *discordgo.Session, m *discordgo.MessageCreate, args []string){
+	first,_ := shift(args)
 	picker := EquipmentPicker{"src/resources/"}
+	if strings.HasPrefix(first, fmt.Sprintf("%s", "killer")) {
+		killer := NewKiller("unknown")
+		killer = picker.PickAllRandom(killer)
+	}
 	survivor := NewSurvivor("unknown")
 	survivor = picker.PickAllRandom(survivor)
-	first,_ := shift(options)
-	if strings.HasPrefix(first, fmt.Sprintf("%s %s", pickUp, "build")) {
-		survivor = picker.PickBuildRandom(survivor)
-	}
 	SendPrivateMessage(s, m, survivor.Equipment())
+//	survivor = picker.PickBuildRandom(survivor)
 }
