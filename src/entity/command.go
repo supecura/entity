@@ -31,8 +31,8 @@ func pick(s *discordgo.Session, m *discordgo.MessageCreate, args []string){
 	first,_ := shift(args)
 	picker := EquipmentPicker{"src/resources/"}
 	if strings.HasPrefix(first, fmt.Sprintf("%s", "killer")) {
-		killer := NewKiller("unknown")
-		killer = picker.PickAllRandom(killer)
+		//killer := NewKiller("unknown")
+		//killer = picker.PickAllRandom(killer)
 	}
 	survivor := NewSurvivor("unknown")
 	survivor = picker.PickAllRandom(survivor)

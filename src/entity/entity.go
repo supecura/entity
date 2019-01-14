@@ -1,12 +1,20 @@
 package entity
 
-import "github.com/bwmarrin/discordgo"
+import (
+	"fmt"
+	"github.com/bwmarrin/discordgo"
+)
 
-func New(botName string) (entity Entity,e error){
-	entity = Entity{BotName:botName}
+func New(token string) (entity Entity,e error){
+	discord, err := discordgo.New()
+	entity = Entity{}
+
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	discord.Token = "Bot "+token
+	discord.AddHandler(entity.OnMessageCreate)
+	err = discord.Open()
 	return entity , e
-}
-
-func (e Entity) AddDiscordClient(client *discordgo.Session) {
-	e.DiscordClient = client
 }

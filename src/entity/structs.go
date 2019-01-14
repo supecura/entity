@@ -40,15 +40,9 @@ type Build struct {
 	Offering		Offering	`json:"offering"`
 }
 
-//Config ...
-type Config struct {
-	Name  string `json:"name"`
-	Token string `json:"token"`
-}
-
 type Entity struct{
-	BotName 	string
-	DiscordClient *discordgo.Session
+	Token			string
+	DiscordClient	*discordgo.Session
 }
 
 //KillerPlayer ...

@@ -53,13 +53,3 @@ func readFile(filePath string) []byte{
 	}
 	return bytes
 }
-
-//Read ...JSONファイル読み込み 設定が少ない部分用
-func ReadJson(filePath string) interface{} {
-	bytes := readFile(filePath)
-	var i interface{}
-	if err := json.Unmarshal(bytes, &i); err != nil {
-		log.Fatal(err)
-	}
-	return i
-}

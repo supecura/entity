@@ -22,7 +22,7 @@ func (e Entity) OnMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate
 	var line = strings.Replace(string(norm.NFKC.Bytes([]byte(m.Content))), "  ", " ", -1)
 	sp := strings.Split(line, " ")
 	first,commands := shift(sp)
-	if strings.HasPrefix(first,e.BotName){
+	if strings.HasPrefix(first,"<@"+s.State.User.ID+">"){
 		callBot(s,m,commands)
 	}
 	fmt.Printf("%20s %20s %20s > %s\n", m.Author.ID, time.Now().Format(time.Stamp), m.Author.Username, line)
