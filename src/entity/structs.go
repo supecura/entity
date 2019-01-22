@@ -1,7 +1,5 @@
 package entity
 
-import "github.com/bwmarrin/discordgo"
-
 //Park ...
 type Park struct {
 	JapaneseName string `json:"japaneseName"`
@@ -41,19 +39,5 @@ type Build struct {
 }
 
 type Entity struct{
-	Token			string
-	DiscordClient	*discordgo.Session
 }
 
-//KillerPlayer ...
-type KillerPlayer struct {
-	ID       string
-	Killer   string
-	Park1    Park
-	Park2    Park
-	Park3    Park
-	Park4    Park
-	Item     Item
-	Addon    Addon
-	Offering Offering
-}

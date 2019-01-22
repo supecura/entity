@@ -32,12 +32,12 @@ func (pattern PickPattern) Name() string {
 
 func (pattern PickPattern)Value(name string) PickPattern{
 	switch name {
-	case "all":
-		return AllRandom
-	case "build":
-		return BuildRandom
-	default:
-		return Unknown
+		case "all":
+			return AllRandom
+		case "build":
+			return BuildRandom
+		default:
+			return Unknown
 	}
 }
 
@@ -45,24 +45,35 @@ func (pattern PickPattern)Patterns() []string{
 	return []string{"all","build"}
 }
 
-func (picker EquipmentPicker) PickAllRandom(player SurvivorPlayer) SurvivorPlayer{
-	survivorPark := ReadPark(picker.resourceDir + "./survivor_park.json")
-	shufflePark := shuffle(survivorPark,func(list []Park, a int, b int) []Park {
+func (picker EquipmentPicker) PickAllRandom(player Player) Player {
+	var role Role
+	park := ReadPark(picker.resourceDir + "./survivor_park.json")
+	if player.Role == role.Value("killer"){
+		park = ReadPark(picker.resourceDir + "./killer_park.json")
+	}
+	shufflePark := shuffle(park,func(list []Park, a int, b int) []Park {
 		list[a], list[b] = list[b], list[a]
 		return list
 	},)
-	survivorPark = shufflePark.([]Park)
-	player.Park = survivorPark
-	items := ReadItems(picker.resourceDir + "./items.json")
-	player.Item = pickRandom(items).(Item)
+	player.Park = shufflePark.([]Park)
+	if player.Role == role.Value("survivor") {
+		items := ReadItems(picker.resourceDir + "./items.json")
+		player.Item = pickRandom(items).(Item)
+	}
+
 	offering := ReadOffering(picker.resourceDir + "./common_offering.json")
-	survivorOffering := ReadOffering(picker.resourceDir + "./survivor_offering.json")
-	offering = append(offering,survivorOffering...)
+	roleOffering := ReadOffering(picker.resourceDir + "./survivor_offering.json")
+	if player.Role == role.Value("killer"){
+		roleOffering = ReadOffering(picker.resourceDir + "./killer_offering.json")
+	}
+
+	offering = append(offering, roleOffering...)
 	player.Offering = pickRandom(offering).(Offering)
 	return player
 }
 
-func (picker EquipmentPicker) PickBuildRandom(player SurvivorPlayer) SurvivorPlayer{
+
+func (picker EquipmentPicker) PickSurvivorBuildRandom(player Player) Player {
 	survivorBuild := ReadBuild(picker.resourceDir + "./test_build.json")
 	build := pickRandom(survivorBuild).(Build)
 	parks := build.Park
