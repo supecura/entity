@@ -11,7 +11,7 @@ var(
 	createChannel =	"create"
 )
 
-func shift(s []string) (first string,slice []string){
+func (e Entity)shift(s []string) (first string,slice []string){
 	if len(s) == 0{
 		return "",s
 	}
@@ -20,15 +20,15 @@ func shift(s []string) (first string,slice []string){
 	return f,s
 }
 
-func callBot(s *discordgo.Session, m *discordgo.MessageCreate, commands []string){
-	first,commands := shift(commands)
+func (e *Entity) callBot(s *discordgo.Session, m *discordgo.MessageCreate, commands []string){
+	first,commands := e.shift(commands)
 	if strings.HasPrefix(first,pickUp){
-		pick(s,m,commands)
+		e.pick(s,m,commands)
 	}
 }
 
-func pick(s *discordgo.Session, m *discordgo.MessageCreate, args []string){
-	first,_ := shift(args)
+func (e *Entity) pick(s *discordgo.Session, m *discordgo.MessageCreate, args []string){
+	first,_ := e.shift(args)
 	picker := EquipmentPicker{"src/resources/"}
 	var role Role
 	player := NewPlayer("unknown",role.Value("Survivor"))
@@ -37,5 +37,5 @@ func pick(s *discordgo.Session, m *discordgo.MessageCreate, args []string){
 		player.Role = r
 	}
 	player = picker.PickAllRandom(player)
-	SendPrivateMessage(s, m, player.Equipment())
+	e.SendPrivateMessage(s, m, player.Equipment())
 }

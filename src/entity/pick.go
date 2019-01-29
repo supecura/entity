@@ -21,12 +21,12 @@ type EquipmentPicker struct{
 
 func (pattern PickPattern) Name() string {
 	switch pattern {
-	case AllRandom:
-		return "AllRandom"
-	case BuildRandom:
-		return "BuildRandom"
-	default:
-		return "Unknown"
+		case AllRandom:
+			return "AllRandom"
+		case BuildRandom:
+			return "BuildRandom"
+		default:
+			return "Unknown"
 	}
 }
 
@@ -47,9 +47,9 @@ func (pattern PickPattern)Patterns() []string{
 
 func (picker EquipmentPicker) PickAllRandom(player Player) Player {
 	var role Role
-	park := ReadPark(picker.resourceDir + "./survivor_park.json")
+	park := picker.ReadPark(picker.resourceDir + "./survivor_park.json")
 	if player.Role == role.Value("killer"){
-		park = ReadPark(picker.resourceDir + "./killer_park.json")
+		park = picker.ReadPark(picker.resourceDir + "./killer_park.json")
 	}
 	shufflePark := shuffle(park,func(list []Park, a int, b int) []Park {
 		list[a], list[b] = list[b], list[a]
@@ -57,14 +57,14 @@ func (picker EquipmentPicker) PickAllRandom(player Player) Player {
 	},)
 	player.Park = shufflePark.([]Park)
 	if player.Role == role.Value("survivor") {
-		items := ReadItems(picker.resourceDir + "./items.json")
+		items := picker.ReadItems(picker.resourceDir + "./items.json")
 		player.Item = pickRandom(items).(Item)
 	}
 
-	offering := ReadOffering(picker.resourceDir + "./common_offering.json")
-	roleOffering := ReadOffering(picker.resourceDir + "./survivor_offering.json")
+	offering := picker.ReadOffering(picker.resourceDir + "./common_offering.json")
+	roleOffering := picker.ReadOffering(picker.resourceDir + "./survivor_offering.json")
 	if player.Role == role.Value("killer"){
-		roleOffering = ReadOffering(picker.resourceDir + "./killer_offering.json")
+		roleOffering = picker.ReadOffering(picker.resourceDir + "./killer_offering.json")
 	}
 
 	offering = append(offering, roleOffering...)
@@ -74,7 +74,7 @@ func (picker EquipmentPicker) PickAllRandom(player Player) Player {
 
 
 func (picker EquipmentPicker) PickSurvivorBuildRandom(player Player) Player {
-	survivorBuild := ReadBuild(picker.resourceDir + "./test_build.json")
+	survivorBuild := picker.ReadBuild(picker.resourceDir + "./test_build.json")
 	build := pickRandom(survivorBuild).(Build)
 	parks := build.Park
 	if len(parks) > 4 {
@@ -95,7 +95,7 @@ func (picker EquipmentPicker) PickSurvivorBuildRandom(player Player) Player {
 	if !(build.Offering.JapaneseName == nil && build.Offering.EnglishName == nil){
 		player.Offering = build.Offering
 	}else{
-		survivorOffering := ReadOffering(picker.resourceDir + "./survivor_offering.json")
+		survivorOffering := picker.ReadOffering(picker.resourceDir + "./survivor_offering.json")
 		pickOffering := pickType(build.Offering.Type,survivorOffering, func(o []Offering,t string) []Offering {
 			var offerings []Offering
 			for _, v := range o {
@@ -111,7 +111,7 @@ func (picker EquipmentPicker) PickSurvivorBuildRandom(player Player) Player {
 	if !(build.Item.JapaneseName == nil && build.Item.EnglishName == nil){
 		player.Item = build.Item
 	}else{
-		items := ReadItems(picker.resourceDir + "./items.json")
+		items := picker.ReadItems(picker.resourceDir + "./items.json")
 		pickItem := pickType(build.Item.Type,items, func(i []Item,t string) []Item{
 			var tmp []Item
 			for _, v := range i {

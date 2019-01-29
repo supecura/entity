@@ -1,7 +1,5 @@
 package entity
 
-import "github.com/bwmarrin/discordgo"
-
 type Role int
 
 const (
@@ -40,31 +38,24 @@ type Player struct {
 	Role        Role
 	Park        []Park
 	Item        Item
-	addon       Addon
+	Addon       Addon
 	Offering    Offering
 	PickPattern PickPattern
 }
 
-
-func (player Player) ShowPlayerInfo(s *discordgo.Session,c *discordgo.Channel){
-	var message string
-	message += "ID"+"\t"+ player.ID
-	//SendMessage(s,c,message)
-}
-
-func (player Player) GetPickPattern() PickPattern {
+func (player *Player) GetPickPattern() PickPattern {
 	return player.PickPattern
 }
 
-func (player Player) SetPickPattern(p PickPattern) {
+func (player *Player) SetPickPattern(p PickPattern) {
 	player.PickPattern = p
 }
 
-func (player Player) GetRole() Role {
+func (player *Player) GetRole() Role {
 	return player.Role
 }
 
-func (player Player) SetRole(role Role) {
+func (player *Player) SetRole(role Role) {
 	player.Role = role
 }
 
@@ -75,7 +66,7 @@ func NewPlayer(id string, role Role) Player {
 	return player
 }
 
-func (player Player) Equipment() string {
+func (player *Player) Equipment() string {
 	var role Role
 	var equipment string
 	equipment += "Park"
