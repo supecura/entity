@@ -7,8 +7,8 @@ import (
 )
 
 //ReadPark ... JSONファイル読み込み
-func (p EquipmentPicker) ReadPark(filePath string) []Park {
-	bytes := p.readFile(filePath)
+func (picker *EquipmentPicker) ReadPark(filePath string) []Park {
+	bytes := picker.readFile(filePath)
 	var park []Park
 	if err := json.Unmarshal(bytes, &park); err != nil {
 		log.Fatal(err)
@@ -17,8 +17,8 @@ func (p EquipmentPicker) ReadPark(filePath string) []Park {
 }
 
 //ReadPark ... JSONファイル読み込み
-func (p EquipmentPicker) ReadBuild(filePath string) []Build {
-	bytes := p.readFile(filePath)
+func (picker *EquipmentPicker) ReadBuild(filePath string) []Build {
+	bytes := picker.readFile(filePath)
 	var build []Build
 	if err := json.Unmarshal(bytes, &build); err != nil {
 		log.Fatal(err)
@@ -27,8 +27,8 @@ func (p EquipmentPicker) ReadBuild(filePath string) []Build {
 }
 
 //ReadItems ... JSONファイル読み込み
-func (p EquipmentPicker) ReadItems(filePath string) []Item {
-	bytes := p.readFile(filePath)
+func (picker *EquipmentPicker) ReadItems(filePath string) []Item {
+	bytes := picker.readFile(filePath)
 	var item []Item
 	if err := json.Unmarshal(bytes, &item); err != nil {
 		log.Fatal(err)
@@ -37,8 +37,8 @@ func (p EquipmentPicker) ReadItems(filePath string) []Item {
 }
 
 //ReadOffering ... JSONファイル読み込み
-func (p EquipmentPicker) ReadOffering(filePath string) []Offering {
-	bytes := p.readFile(filePath)
+func (picker *EquipmentPicker) ReadOffering(filePath string) []Offering {
+	bytes := picker.readFile(filePath)
 	var offering []Offering
 	if err := json.Unmarshal(bytes, &offering); err != nil {
 		log.Fatal(err)
@@ -46,7 +46,7 @@ func (p EquipmentPicker) ReadOffering(filePath string) []Offering {
 	return offering
 }
 
-func (p EquipmentPicker) readFile(filePath string) []byte{
+func (picker *EquipmentPicker) readFile(filePath string) []byte{
 	bytes, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		log.Fatal(err)

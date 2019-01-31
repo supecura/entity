@@ -10,8 +10,7 @@ import (
 type PickPattern int
 
 const (
-	Unknown		PickPattern = iota
-	AllRandom
+	AllRandom	PickPattern = iota
 	BuildRandom
 )
 
@@ -21,31 +20,27 @@ type EquipmentPicker struct{
 
 func (pattern PickPattern) Name() string {
 	switch pattern {
-		case AllRandom:
-			return "AllRandom"
 		case BuildRandom:
 			return "BuildRandom"
 		default:
-			return "Unknown"
+			return "AllRandom"
 	}
 }
 
-func (pattern PickPattern)Value(name string) PickPattern{
+func (pattern *PickPattern)Value(name string) PickPattern{
 	switch name {
-		case "all":
-			return AllRandom
 		case "build":
 			return BuildRandom
 		default:
-			return Unknown
+			return AllRandom
 	}
 }
 
-func (pattern PickPattern)Patterns() []string{
+func (pattern *PickPattern)Patterns() []string{
 	return []string{"all","build"}
 }
 
-func (picker EquipmentPicker) PickAllRandom(player Player) Player {
+func (picker *EquipmentPicker) PickAllRandom(player Player) Player {
 	var role Role
 	park := picker.ReadPark(picker.resourceDir + "./survivor_park.json")
 	if player.Role == role.Value("killer"){
@@ -73,7 +68,7 @@ func (picker EquipmentPicker) PickAllRandom(player Player) Player {
 }
 
 
-func (picker EquipmentPicker) PickSurvivorBuildRandom(player Player) Player {
+func (picker *EquipmentPicker) PickSurvivorBuildRandom(player Player) Player {
 	survivorBuild := picker.ReadBuild(picker.resourceDir + "./test_build.json")
 	build := pickRandom(survivorBuild).(Build)
 	parks := build.Park

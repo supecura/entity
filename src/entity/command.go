@@ -11,7 +11,7 @@ var(
 	createChannel =	"create"
 )
 
-func (e Entity)shift(s []string) (first string,slice []string){
+func (e *Entity)shift(s []string) (first string,slice []string){
 	if len(s) == 0{
 		return "",s
 	}
@@ -31,7 +31,7 @@ func (e *Entity) pick(s *discordgo.Session, m *discordgo.MessageCreate, args []s
 	first,_ := e.shift(args)
 	picker := EquipmentPicker{"src/resources/"}
 	var role Role
-	player := NewPlayer("unknown",role.Value("Survivor"))
+	player := e.NewPlayer("unknown",role.Value("Survivor"))
 	if strings.HasPrefix(first, fmt.Sprintf("%s", "killer")) {
 		r := role.Value("killer")
 		player.Role = r

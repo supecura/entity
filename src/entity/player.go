@@ -9,12 +9,10 @@ const (
 
 func (role Role) Name() string {
 	switch role {
-	case Survivor:
-		return "Survivor"
 	case Killer:
 		return "Killer"
 	default:
-		return "Unknown"
+		return "Survivor"
 	}
 }
 
@@ -60,7 +58,7 @@ func (player *Player) SetRole(role Role) {
 }
 
 //NewPlayer
-func NewPlayer(id string, role Role) Player {
+func (e *Entity) NewPlayer(id string, role Role) Player {
 	var p PickPattern
 	player := Player{ID: id, Role: role,PickPattern:p.Value("all")}
 	return player
