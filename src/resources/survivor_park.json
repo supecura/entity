@@ -288,5 +288,20 @@
 		"type": "JEFF-JOHANSEN_teachable",
 		"englishName": "Distortion",
 		"japaneseName": "ディストーション"
+	},
+	{
+		"type": "JANE-ROMERO_teachable",
+		"englishName": "Solidarity",
+		"japaneseName": "連帯感"
+	},
+	{
+		"type": "JANE ROMERO_teachable",
+		"englishName": "Poised",
+		"japaneseName": "平常心"
+	},
+	{
+		"type": "JANE ROMERO_teachable",
+		"englishName": "Head On",
+		"japaneseName": "真っ向勝負"
 	}
 ]

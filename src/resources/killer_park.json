@@ -268,5 +268,20 @@
 		"type": "THE-LEGION_teachable",
 		"englishName": "Iron Maiden",
 		"japaneseName": "アイアンメイデン"
+	},
+	{
+		"type": "THE-PLAGUE_teachable",
+		"englishName": "Corrupt Intervention",
+		"japaneseName": "堕落の介入"
+	},
+	{
+		"type": "THE-PLAGUE_teachable",
+		"englishName": "Infectious Fright",
+		"japaneseName": "伝搬する怖気"
+	},
+	{
+		"type": "THE-PLAGUE_teachable",
+		"englishName": "Dark Devotion",
+		"japaneseName": "闇の信仰心"
 	}
 ]
