@@ -295,13 +295,28 @@
 		"japaneseName": "連帯感"
 	},
 	{
-		"type": "JANE ROMERO_teachable",
+		"type": "JANE-ROMERO_teachable",
 		"englishName": "Poised",
 		"japaneseName": "平常心"
 	},
 	{
-		"type": "JANE ROMERO_teachable",
+		"type": "JANE-ROMERO_teachable",
 		"englishName": "Head On",
 		"japaneseName": "真っ向勝負"
+	},
+	{
+		"type": "Ashley-Joanna-Williams_teachable",
+		"englishName": "Flip-Flop",
+		"japaneseName": "フリップ・フロップ"
+	},
+	{
+		"type": "Ashley-Joanna-Williams_teachable",
+		"englishName": "Buckle Up",
+		"japaneseName": "ベルトを締めろ！"
+	},
+	{
+		"type": "Ashley-Joanna-Williams_teachable",
+		"englishName": "Mettle Of Man",
+		"japaneseName": "英雄の奮起"
 	}
 ]
