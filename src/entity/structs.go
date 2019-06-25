@@ -15,7 +15,7 @@ type Offering struct {
 	Rarity       *string `json:"rarity"`
 }
 
-//addon ...
+//Addon ...
 type Addon struct {
 	JapaneseName string `json:"japaneseName"`
 	EnglishName  string `json:"englishName"`
@@ -38,6 +38,11 @@ type Build struct {
 	Offering		Offering	`json:"offering"`
 }
 
+type Ritual struct{
+	Players			[]Player
+}
+
 type Entity struct{
+	Ritual
 }
 
