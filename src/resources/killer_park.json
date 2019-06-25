@@ -283,5 +283,20 @@
 		"type": "THE-PLAGUE_teachable",
 		"englishName": "Dark Devotion",
 		"japaneseName": "闇の信仰心"
+	},
+	{
+		"type": "THE-GHOST_teachable",
+		"englishName": "I'm All Ears",
+		"japaneseName": "地獄耳"
+	},
+	{
+		"type": "THE-GHOST_teachable",
+		"englishName": "Thrilling Tremors",
+		"japaneseName": "戦慄"
+	},
+	{
+		"type": "THE-GHOST_teachable",
+		"englishName": "Furtive Chase",
+		"japaneseName": "隠密の追跡"
 	}
 ]
