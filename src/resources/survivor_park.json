@@ -305,18 +305,48 @@
 		"japaneseName": "真っ向勝負"
 	},
 	{
-		"type": "Ashley-Joanna-Williams_teachable",
+		"type": "ASHLEY-JOANNA-WILLIAMS_teachable",
 		"englishName": "Flip-Flop",
 		"japaneseName": "フリップ・フロップ"
 	},
 	{
-		"type": "Ashley-Joanna-Williams_teachable",
+		"type": "ASHLEY-JOANNA-WILLIAMS_teachable",
 		"englishName": "Buckle Up",
 		"japaneseName": "ベルトを締めろ！"
 	},
 	{
-		"type": "Ashley-Joanna-Williams_teachable",
+		"type": "ASHLEY-JOANNA-WILLIAMS_teachable",
 		"englishName": "Mettle Of Man",
 		"japaneseName": "英雄の奮起"
+	},
+	{
+		"type": "NANCY-WHEELER_teachable",
+		"englishName": "Better Together",
+		"japaneseName": "一緒にいよう"
+	},
+	{
+		"type": "NANCY-WHEELER_teachable",
+		"englishName": "Fixated",
+		"japaneseName": "執着心"
+	},
+	{
+		"type": "NANCY-WHEELER_teachable",
+		"englishName": "Inner Strength",
+		"japaneseName": "内なる力"
+	},
+	{
+		"type": "STEVE-HARRINGTON_teachable",
+		"englishName": "Babysitter",
+		"japaneseName": "ベビーシッター"
+	},
+	{
+		"type": "STEVE-HARRINGTON_teachable",
+		"englishName": "Camaraderie",
+		"japaneseName": "仲間意識"
+	},
+	{
+		"type": "STEVE-HARRINGTON_teachable",
+		"englishName": "Second Wind",
+		"japaneseName": "セカンドウィンド"
 	}
 ]

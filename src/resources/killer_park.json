@@ -298,5 +298,20 @@
 		"type": "THE-GHOST_teachable",
 		"englishName": "Furtive Chase",
 		"japaneseName": "隠密の追跡"
+	},
+	{
+		"type": "THE-DEMOGORGON_teachable",
+		"englishName": "Surge",
+		"japaneseName": "サージ"
+	},
+	{
+		"type": "THE-DEMOGORGON_teachable",
+		"englishName": "Cruel Limits",
+		"japaneseName": "無慈悲の極地"
+	},
+	{
+		"type": "THE-DEMOGORGON_teachable",
+		"englishName": "Mindbreaker",
+		"japaneseName": "マインドブレーカー"
 	}
 ]
