@@ -88,5 +88,24 @@
     "rarity": "Rare",
     "englishName": "Yamaoka Family Crest",
     "japaneseName": "山岡家の家紋"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "Damaged Photo",
+    "japaneseName": "傷んだ写真"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "",
+    "japaneseName": "ホーキンス国立研究所のIDカード"
+  },
+  {
+    "type": "StageSelect",
+    "rarity": "Rare",
+    "englishName": "",
+    "japaneseName": ""
   }
+
 ]

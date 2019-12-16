@@ -313,5 +313,20 @@
 		"type": "THE-DEMOGORGON_teachable",
 		"englishName": "Mindbreaker",
 		"japaneseName": "マインドブレーカー"
+	},
+	{
+		"type": "THE-ONI_teachable",
+		"englishName": "Zanshin Tactics",
+		"japaneseName": "残心の戦術"
+	},
+	{
+		"type": "THE-ONI_teachable",
+		"englishName": "Blood Echo",
+		"japaneseName": "血の共鳴"
+	},
+	{
+		"type": "THE-ONI_teachable",
+		"englishName": "Nemecis",
+		"japaneseName": "天誅"
 	}
 ]

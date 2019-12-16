@@ -348,5 +348,20 @@
 		"type": "STEVE-HARRINGTON_teachable",
 		"englishName": "Second Wind",
 		"japaneseName": "セカンドウィンド"
+	},
+	{
+		"type": "YUI-KIMURA_teachable",
+		"englishName": "Lucky Break",
+		"japaneseName": "怪我の功名"
+	},
+	{
+		"type": "YUI-KIMURA_teachable",
+		"englishName": "Any Means Necessary",
+		"japaneseName": "強硬手段"
+	},
+	{
+		"type": "YUI-KIMURA_teachable",
+		"englishName": "Breakout",
+		"japaneseName": "突破"
 	}
 ]
