@@ -1,3 +1,8 @@
-# entity
+# Summary
+entity is a bot of Discord to be used for Dead by Daylight.
 
-discord bot for dead by daylight
+
+
+
+## Run
+go run src/main.go DISCORD_BOT_SECRET_TOKEN
