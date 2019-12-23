@@ -1,8 +1,7 @@
 # Summary
 entity is a bot of Discord to be used for Dead by Daylight.
 
+# Requirement
+* golang 1.9.3
+* github.com/bwmarrin/discordgo
 
-
-
-## Run
-go run src/main.go DISCORD_BOT_SECRET_TOKEN
